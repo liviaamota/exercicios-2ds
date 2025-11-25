@@ -3,21 +3,31 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node --import=tsx --watch ./src/server.ts"
+    "start": "node --import=tsx --watch ./src/server.ts",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "PROFESSOR: Everson Sousa | TURMA: 2º EM DESENVOLVIMENTO DE SISTEMAS",
   "devDependencies": {
     "@types/express": "^5.0.5",
     "@types/helmet": "^0.0.48",
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.5",
     "tsc": "^2.0.4",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "helmet": "^8.1.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
